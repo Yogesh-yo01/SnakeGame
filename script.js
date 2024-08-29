@@ -145,7 +145,7 @@ function checkGameover(){
         case(snake[0].y<0):
         case(snake[0].y>=HEIGHT):
             active=false;
-        break;
+            break;
     }
 }
 
